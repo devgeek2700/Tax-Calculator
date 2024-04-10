@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fb765b365e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+<body>
+    </head>
+
+    <body>
+        <form>
+
+            <h1>Tax Calculator</h1>
+
+            <fieldset>
+                <label for="name">Enter gross annual income
+                    <div class="wrapper">
+                        <div class="icon facebook">
+                            <div class="tooltip">
+                                Gross annual income is your total salary in a year
+                                before any deductions </div>
+                            <span><i class="fa-regular fa-circle-question"></i></span>
+                        </div>
+                    </div>
+                </label>
+                <div class="input-container">
+                    <input type="text" name="gross_annual_income" placeholder="Enter gross annual income" id="input1"
+                        oninput="validateInput('input1', 'exaclIcon1')">
+
+                    <div class="wrapper" id="inofInputField">
+                        <div class="exaclIcon facebook" id="exaclIcon1">
+                            <div class="tooltip" id="inputInfo">
+                                Please Enter Number Only</div>
+                            <span><i class="fa-solid fa-circle-exclamation "></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <label for="universityname">Enter extra income
+                    <div class="wrapper">
+                        <div class="icon twitter">
+                            <div class="tooltip">
+                                Extra income is additional earnings from sources other
+                                than salary. </div>
+                            <span><i class="fa-regular fa-circle-question" id="info4"></i></span>
+                        </div>
+                    </div>
+                </label>
+                <div class="input-container">
+                    <input type="text" name="extra_income" placeholder="Enter extra income from other sources"
+                        id="input2" oninput="validateInput('input2', 'exaclIcon2')">
+
+                    <div class="wrapper" id="inofInputField">
+                        <div class="exaclIcon facebook" id="exaclIcon2">
+                            <div class="tooltip" id="inputInfo">
+                                Please Enter Number Only</div>
+                            <span><i class="fa-solid fa-circle-exclamation "></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <label for="event_select_for">Enter Your Age gruop
+                    <div class="wrapper">
+                        <div class="icon twitter">
+                            <div class="tooltip">
+                                Age group is a category based on age (40, 40-59, ≥60) </div>
+                            <span><i class="fa-regular fa-circle-question" id="info4"></i></span>
+                        </div>
+                    </div>
+                </label>
+
+                <div class="input-container">
+                    <select id="event_select" name="memeber_job" id="iput3">
+                        <optgroup label="Age">
+                            <option value="sdance">
+                                <40 </option>
+                            <option value="code"> ≥ 40 & < 60 </option>
+                            <option value="sbr"> ≥ 60 </option>
+                        </optgroup>
+                    </select>
+                    <div class="wrapper" id="inofInputField">
+                        <div class="exaclIcon facebook" id="exaclIcon3">
+                            <div class="tooltip" id="inputInfo">
+                                Please Enter Number Only</div>
+                            <span><i class="fa-solid fa-circle-exclamation"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <label for="text">Enter total applicable deductions
+                    <div class="wrapper" id="inofInputField">
+                        <div class="icon github">
+                            <div class="tooltip">
+                                Total deductions is sum of eligible deductions from
+                                income
+                            </div>
+                            <span><i class="fa-regular fa-circle-question" id="info4"></i></span>
+                        </div>
+                    </div>
+                </label>
+                <div class="input-container">
+                    <input type="text" name="applicable_deductions" placeholder="Add total applicable deductions"
+                        id="input4" oninput="validateInput('input4', 'exaclIcon4')">
+                    <div class="wrapper" id="inofInputField">
+                        <div class="exaclIcon facebook" id="exaclIcon4">
+                            <div class="tooltip" id="inputInfo">
+                                Please Enter Number Only</div>
+                            <span><i class="fa-solid fa-circle-exclamation"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+            </fieldset>
+
+
+            <button type="submit" onclick="validateAndCalculate()">Submit</button>
+        </form>
+
+
+        <!-- popup modal form -->
+        <main>
+            <div id="modal">
+                <div class="modal-content">
+                    <p><b>Your Tax Calculation!!</b></p>
+                    <p>Your Overall Income will be</p>
+                    <p id="answerDiv"> Lakhs</p>
+                    <p>after tax deductions of </p>
+                    <p id="answerDivtax"> Lakhs</p>
+                    <a href="#" title="Close Modal" class="close" onclick="closeModal()">Close</a>
+                </div>
+            </div>
+        </main>
+        <script src="Js/main.js"></script>
+
+    </body>
+
+</html>
