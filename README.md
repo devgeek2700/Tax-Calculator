@@ -34,7 +34,7 @@ Just simply install 'Live Server' on vs code or run in Browser
 
 ## LIVE Projects
 
-dainty-baklava-c29508.netlify.app
+https://dainty-baklava-c29508.netlify.app/#
 
 ## Screenshot
 
