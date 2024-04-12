@@ -29,6 +29,32 @@ This is a web application designed to calculate taxes based on user-provided inp
 4. View the calculated tax information in the modal window.
 5. Click the "Close" button to close the modal window.
 
+## LIVE Projects
+
+dainty-baklava-c29508.netlify.app
+
+## Screenshot
+
+## Homepage 
+
+![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+
+## Homepage 
+
+![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+
+## Homepage 
+
+![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+
+## Homepage 
+
+![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+
+## Homepage 
+
+![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+
 ## How to Contribute
 
 If you'd like to contribute to this project, you can follow these steps:
