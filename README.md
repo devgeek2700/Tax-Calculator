@@ -35,25 +35,25 @@ dainty-baklava-c29508.netlify.app
 
 ## Screenshot
 
-## Homepage 
+## Tax Calculator Form
 
-![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Tax-Calculator/blob/master/Output/homepage.png?raw=true)
 
-## Homepage 
+## Guide Popovers 
 
-![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Tax-Calculator/blob/master/Output/giudepopup.png?raw=true)
 
-## Homepage 
+## Validation in Form 
 
-![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Tax-Calculator/blob/master/Output/validate.png?raw=true)
 
-## Homepage 
+## Wrong Entry Guide 
 
-![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Tax-Calculator/blob/master/Output/enter!.png?raw=true)
 
-## Homepage 
+## Result Popup Modal 
 
-![App Screenshot](https://github.com/devgeek2700/StackOverflow-Clone-Using-MERN/blob/master/src/assets/Outputs/1.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Tax-Calculator/blob/master/Output/finaloutput.png?raw=true)
 
 ## How to Contribute
 
