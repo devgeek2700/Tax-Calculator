@@ -58,6 +58,65 @@ dainty-baklava-c29508.netlify.app
 
 ![App Screenshot](https://github.com/devgeek2700/Tax-Calculator/blob/master/Output/finaloutput.png?raw=true)
 
+# Tax Calculator Test Suite
+
+## Input Validation Tests
+
+### Test 1: Validate Gross Annual Income Input
+- **Scenario:** Verify that the Gross Annual Income input field only accepts numeric values.
+- **Steps:**
+  1. Enter a non-numeric value into the Gross Annual Income field.
+  2. Submit the form.
+- **Expected Result:** An error message should be displayed indicating that only numeric values are allowed.
+
+### Test 2: Validate Extra Income Input
+- **Scenario:** Ensure that the Extra Income input field only accepts numeric values.
+- **Steps:**
+  1. Enter a non-numeric value into the Extra Income field.
+  2. Submit the form.
+- **Expected Result:** An error message should be displayed indicating that only numeric values are allowed.
+
+### Test 3: Validate Deductions Input
+- **Scenario:** Check that the Deductions input field only accepts numeric values.
+- **Steps:**
+  1. Enter a non-numeric value into the Deductions field.
+  2. Submit the form.
+- **Expected Result:** An error message should be displayed indicating that only numeric values are allowed.
+
+## Calculation Logic Tests
+
+### Test 4: Calculate Overall Income
+- **Scenario:** Verify that the overall income is calculated correctly based on Gross Annual Income, Extra Income, and Deductions.
+- **Steps:**
+  1. Enter valid values for Gross Annual Income, Extra Income, and Deductions.
+  2. Submit the form.
+- **Expected Result:** The overall income should be calculated accurately.
+
+### Test 5: Calculate Tax Deduction
+- **Scenario:** Ensure that the tax deduction is calculated correctly based on the overall income and age group.
+- **Steps:**
+  1. Enter valid values for Gross Annual Income, Extra Income, Deductions, and select an age group.
+  2. Submit the form.
+- **Expected Result:** The tax deduction should be calculated accurately according to the specified age group.
+
+## User Interface Behavior Tests
+
+### Test 6: Modal Display After Form Submission
+- **Scenario:** Confirm that the modal form is displayed after successfully submitting the input form.
+- **Steps:**
+  1. Enter valid input values.
+  2. Submit the form.
+- **Expected Result:** The modal should appear on the screen displaying the tax calculation results.
+
+### Test 7: Modal Close Functionality
+- **Scenario:** Ensure that the modal form can be closed using the "Close" button.
+- **Steps:**
+  1. Open the modal form.
+  2. Click on the "Close" button.
+- **Expected Result:** The modal should be closed and no longer visible on the screen.
+
+
+
 ## How to Contribute
 
 If you'd like to contribute to this project, you can follow these steps:
