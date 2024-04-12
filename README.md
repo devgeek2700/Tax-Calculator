@@ -29,6 +29,9 @@ This is a web application designed to calculate taxes based on user-provided inp
 4. View the calculated tax information in the modal window.
 5. Click the "Close" button to close the modal window.
 
+## Getting Started
+Just simply install 'Live Server' on vs code or run in Browser
+
 ## LIVE Projects
 
 dainty-baklava-c29508.netlify.app
